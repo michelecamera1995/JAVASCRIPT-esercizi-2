@@ -20,13 +20,13 @@ for (let i = 0; i < 5; i++) {
 
 }
 
-/*
 for (i = 0; i < numberlist.length; i++) {
     const number = numberlist[i];
     somma = somma + number;
 }
-*/
 
+
+/*
 let listfull = false;
 
 while (listfull) {
@@ -36,6 +36,9 @@ while (listfull) {
 }
 
 console.log(listfull)
+
+*/
+
 
 
 
