@@ -7,9 +7,7 @@ const numberlist = [];
 
 let somma = 0;
 
-let i
-
-for (i = 0; i < 5; i++) {
+for (let i = 0; i < 5; i++) {
 
     let firstnumb
 
@@ -22,15 +20,23 @@ for (i = 0; i < 5; i++) {
 
 }
 
-//for (  i = 0; i < numberlist.length; i++) {
-//    const number = parseInt(numberlist[i]);
-//   somma = somma + number;
-//}
-
-while (i < numberlist.length) {
+/*
+for (i = 0; i < numberlist.length; i++) {
     const number = parseInt(numberlist[i]);
     somma = somma + number;
 }
+*/
+
+let listfull = false;
+
+while (listfull) {
+    let number = parseInt(numberlist[i]);
+    somma = somma + number;
+    listfull = true;
+}
+
+console.log(listfull)
+
 
 
 
