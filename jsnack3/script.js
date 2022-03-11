@@ -7,13 +7,12 @@ const lista1 = ['cane', 'gatto', 'coccodrillo', 'mucca', 'asino', 'toro', 'pecor
 
 const lista2 = ['cane', 'gatto', 'coccodrillo', 'mucca']
 
+let animali = lista1[Math.floor(Math.random() * lista1.length)];
+
 let listapiena = false;
 
 while (lista2.length < lista1.length) {
-    lista2.push('asino');
-    lista2.push('toro');
-    lista2.push('pecora');
-    lista2.push('agnello');
+    lista2.push(animali);
     listapiena = true;
 }
 
