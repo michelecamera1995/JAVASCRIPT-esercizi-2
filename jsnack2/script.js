@@ -22,7 +22,7 @@ for (let i = 0; i < 5; i++) {
 
 /*
 for (i = 0; i < numberlist.length; i++) {
-    const number = parseInt(numberlist[i]);
+    const number = numberlist[i];
     somma = somma + number;
 }
 */
@@ -30,7 +30,7 @@ for (i = 0; i < numberlist.length; i++) {
 let listfull = false;
 
 while (listfull) {
-    let number = parseInt(numberlist[i]);
+    let number = numberlist[i];
     somma = somma + number;
     listfull = true;
 }
