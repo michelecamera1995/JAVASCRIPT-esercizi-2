@@ -7,6 +7,8 @@ const numberlist = [];
 
 let somma = 0;
 
+
+
 for (let i = 0; i < 5; i++) {
 
     let firstnumb
@@ -17,31 +19,21 @@ for (let i = 0; i < 5; i++) {
     if (firstnumb) {
         numberlist.push(firstnumb);
     }
-
 }
-
-for (i = 0; i < numberlist.length; i++) {
-    const number = numberlist[i];
-    somma = somma + number;
-}
-
 
 /*
-let listfull = false;
-
-while (listfull) {
-    let number = numberlist[i];
+for (let a = 0; a < numberlist.length; a++) {
+    const number = numberlist[a];
     somma = somma + number;
-    listfull = true;
 }
-
-console.log(listfull)
-
 */
 
-
-
-
+let x = 0
+while (x < numberlist.length) {
+    const number = numberlist[x];
+    somma = somma + number;
+    x++;
+}
 
 console.log(numberlist)
 console.log(somma)
